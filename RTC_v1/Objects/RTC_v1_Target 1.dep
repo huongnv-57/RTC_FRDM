@@ -1,0 +1,79 @@
+Dependencies for Project 'RTC_v1', Target 'Target 1': (DO NOT MODIFY !)
+F (.\RTC.c)(0x566A6761)(-c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I C:\Users\Viethuong_Nguyen\OneDrive\LastYear\Embeded\Projects\RTC_v1\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.7.0\Device\Include-D__UVISION_VERSION="516" -D_RTE_ -DMKL46Z256xxx4-o .\objects\rtc.o --omf_browse .\objects\rtc.crf --depend .\objects\rtc.d)
+I (RTC.h)(0x564470D2)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.7.0\Device\Include\MKL46Z4.h)(0x51BFCCC8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm0plus.h)(0x55094A14)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF0402)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55094A14)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55094A14)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.7.0\Device\Include\system_MKL46Z4.h)(0x51BFCCC8)
+I (Led.h)(0x563774CE)
+I (Systick.h)(0x5627DFE0)
+F (.\sw.c)(0x5629A79D)(-c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I C:\Users\Viethuong_Nguyen\OneDrive\LastYear\Embeded\Projects\RTC_v1\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.7.0\Device\Include-D__UVISION_VERSION="516" -D_RTE_ -DMKL46Z256xxx4-o .\objects\sw.o --omf_browse .\objects\sw.crf --depend .\objects\sw.d)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.7.0\Device\Include\MKL46Z4.h)(0x51BFCCC8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm0plus.h)(0x55094A14)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF0402)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55094A14)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55094A14)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.7.0\Device\Include\system_MKL46Z4.h)(0x51BFCCC8)
+I (sw.h)(0x5629A4E9)
+F (.\sw.h)(0x5629A4E9)()
+F (.\main.c)(0x5663D495)(-c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I C:\Users\Viethuong_Nguyen\OneDrive\LastYear\Embeded\Projects\RTC_v1\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.7.0\Device\Include-D__UVISION_VERSION="516" -D_RTE_ -DMKL46Z256xxx4-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.7.0\Device\Include\MKL46Z4.h)(0x51BFCCC8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm0plus.h)(0x55094A14)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF0402)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55094A14)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55094A14)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.7.0\Device\Include\system_MKL46Z4.h)(0x51BFCCC8)
+I (RTC.h)(0x564470D2)
+I (sw.h)(0x5629A4E9)
+I (Led.h)(0x563774CE)
+I (SLCD.h)(0x56377AE6)
+I (mode.h)(0x56449258)
+I (Systick.h)(0x5627DFE0)
+F (.\Led.c)(0x56448B1A)(-c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I C:\Users\Viethuong_Nguyen\OneDrive\LastYear\Embeded\Projects\RTC_v1\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.7.0\Device\Include-D__UVISION_VERSION="516" -D_RTE_ -DMKL46Z256xxx4-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
+I (Led.h)(0x563774CE)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.7.0\Device\Include\MKL46Z4.h)(0x51BFCCC8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm0plus.h)(0x55094A14)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF0402)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55094A14)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55094A14)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.7.0\Device\Include\system_MKL46Z4.h)(0x51BFCCC8)
+F (.\Led.h)(0x563774CE)()
+F (.\SLCD.c)(0x563784CA)(-c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I C:\Users\Viethuong_Nguyen\OneDrive\LastYear\Embeded\Projects\RTC_v1\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.7.0\Device\Include-D__UVISION_VERSION="516" -D_RTE_ -DMKL46Z256xxx4-o .\objects\slcd.o --omf_browse .\objects\slcd.crf --depend .\objects\slcd.d)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.7.0\Device\Include\MKL46Z4.h)(0x51BFCCC8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm0plus.h)(0x55094A14)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF0402)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55094A14)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55094A14)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.7.0\Device\Include\system_MKL46Z4.h)(0x51BFCCC8)
+I (SLCD.h)(0x56377AE6)
+F (.\mode.c)(0x5663E7BD)(-c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I C:\Users\Viethuong_Nguyen\OneDrive\LastYear\Embeded\Projects\RTC_v1\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.7.0\Device\Include-D__UVISION_VERSION="516" -D_RTE_ -DMKL46Z256xxx4-o .\objects\mode.o --omf_browse .\objects\mode.crf --depend .\objects\mode.d)
+I (mode.h)(0x56449258)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.7.0\Device\Include\MKL46Z4.h)(0x51BFCCC8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm0plus.h)(0x55094A14)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF0402)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55094A14)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55094A14)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.7.0\Device\Include\system_MKL46Z4.h)(0x51BFCCC8)
+I (SLCD.h)(0x56377AE6)
+I (RTC.h)(0x564470D2)
+I (Systick.h)(0x5627DFE0)
+I (LED.h)(0x563774CE)
+F (.\Systick.c)(0x5639759C)(-c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I C:\Users\Viethuong_Nguyen\OneDrive\LastYear\Embeded\Projects\RTC_v1\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.7.0\Device\Include-D__UVISION_VERSION="516" -D_RTE_ -DMKL46Z256xxx4-o .\objects\systick.o --omf_browse .\objects\systick.crf --depend .\objects\systick.d)
+I (Systick.h)(0x5627DFE0)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.7.0\Device\Include\MKL46Z4.h)(0x51BFCCC8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm0plus.h)(0x55094A14)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF0402)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55094A14)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55094A14)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.7.0\Device\Include\system_MKL46Z4.h)(0x51BFCCC8)
+F (.\Systick.h)(0x5627DFE0)()
+F (RTE\Device\MKL46Z256xxx4\startup_MKL46Z4.s)(0x51BFCCC8)(--cpu Cortex-M0+ --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Users\Viethuong_Nguyen\OneDrive\LastYear\Embeded\Projects\RTC_v1\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.7.0\Device\Include--pd "__UVISION_VERSION SETA 516" --pd "_RTE_ SETA 1" --pd "MKL46Z256xxx4 SETA 1"--list .\listings\startup_mkl46z4.lst --xref -o .\objects\startup_mkl46z4.o --depend .\objects\startup_mkl46z4.d)
+F (RTE\Device\MKL46Z256xxx4\system_MKL46Z4.c)(0x51BFCCC8)(-c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I C:\Users\Viethuong_Nguyen\OneDrive\LastYear\Embeded\Projects\RTC_v1\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.7.0\Device\Include-D__UVISION_VERSION="516" -D_RTE_ -DMKL46Z256xxx4-o .\objects\system_mkl46z4.o --omf_browse .\objects\system_mkl46z4.crf --depend .\objects\system_mkl46z4.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF0402)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.7.0\Device\Include\MKL46Z4.h)(0x51BFCCC8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm0plus.h)(0x55094A14)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55094A14)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55094A14)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.7.0\Device\Include\system_MKL46Z4.h)(0x51BFCCC8)

@@ -1,0 +1,97 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.16a
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: huong nguyen, uet, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.16a
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 (build 20)
+Assembler:       Armasm.exe V5.06 (build 20)
+Linker/Locator:  ArmLink.exe V5.06 (build 20)
+Library Manager: ArmAr.exe V5.06 (build 20)
+Hex Converter:   FromElf.exe V5.06 (build 20)
+CPU DLL:         SARMCM3.DLL V5.16a
+Dialog DLL:      DARMCM1.DLL V1.12.0.0
+Target DLL:      PEMicro\Pemicro_ArmCortexInterface.dll V1.11
+Dialog DLL:      TARMCM1.DLL V1.9.0.0
+ 
+<h2>Project:</h2>
+C:\Users\Viethuong_Nguyen\OneDrive\LastYear\Embeded\Projects\RTC_v1\RTC_v1.uvprojx
+Project File Date:  11/12/2015
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 (build 20)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'Target 1'
+compiling sw.c...
+sw.c(19): warning:  #188-D: enumerated type mixed with another type
+  	NVIC_ClearPendingIRQ(31);
+sw.c(20): warning:  #188-D: enumerated type mixed with another type
+  	NVIC_EnableIRQ(31);
+sw.c: 2 warnings, 0 errors
+compiling RTC.c...
+C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.7.0\Device\Include\MKL46Z4.h(4318): warning:  #47-D: incompatible redefinition of macro "RTC" (declared at line 2 of "RTC.h")
+  #define RTC                                      ((RTC_Type *)RTC_BASE)
+RTC.c(51): warning:  #1-D: last line of file ends without a newline
+  }
+RTC.c: 2 warnings, 0 errors
+compiling main.c...
+main.c(24): warning:  #223-D: function "initRTC" declared implicitly
+  	initRTC();
+main.c(77): warning:  #1-D: last line of file ends without a newline
+  }
+main.c: 2 warnings, 0 errors
+compiling Led.c...
+compiling SLCD.c...
+SLCD.c(5): warning:  #177-D: variable "LCD_Backplane_Pin" was declared but never referenced
+  const static uint8_t LCD_Backplane_Pin[LCD_NUM_BACKPLANE_PINS] = {LCD_BACKPLANE0, LCD_BACKPLANE1, LCD_BACKPLANE2, LCD_BACKPLANE3};
+SLCD.c: 1 warning, 0 errors
+assembling startup_MKL46Z4.s...
+compiling mode.c...
+mode.c(137): warning:  #1-D: last line of file ends without a newline
+  }
+mode.c: 1 warning, 0 errors
+compiling Systick.c...
+Systick.c(16): warning:  #1-D: last line of file ends without a newline
+  }
+Systick.c: 1 warning, 0 errors
+compiling system_MKL46Z4.c...
+linking...
+Program Size: Code=3724 RO-data=236 RW-data=44 ZI-data=356  
+After Build - User command #1: C:\Keil_v5\ARM\ARMCC\bin\fromelf.exe --bin --output=C:\Users\Viethuong_Nguyen\OneDrive\LastYear\Embeded\Projects\RTC_v1\Objects\viethuong.bin C:\Users\Viethuong_Nguyen\OneDrive\LastYear\Embeded\Projects\RTC_v1\Objects\RTC_v1.axf
+".\Objects\RTC_v1.axf" - 0 Error(s), 9 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.3.0.pack
+                ARM::CMSIS:CORE:4.1.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 4.1.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.Kinetis_KLxx_DFP.1.7.0.pack
+                Keil::Device:Startup:1.0.0
+                Freescale Kinetis KLxx Series Device Support and Examples
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\Viethuong_Nguyen\OneDrive\LastYear\Embeded\Projects\RTC_v1\RTE
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.7.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:4.1.0
+
+   * Component: Keil::Device:Startup:1.0.0
+      Source file:   Device\Source\system_MKL46Z4.c
+      Source file:   Device\Source\ARM\startup_MKL46Z4.s
+Build Time Elapsed:  00:00:05
+</pre>
+</body>
+</html>
