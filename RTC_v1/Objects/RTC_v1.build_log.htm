@@ -27,6 +27,12 @@ Project File Date:  11/12/2015
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 (build 20)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
 Rebuild target 'Target 1'
+compiling main.c...
+main.c(25): warning:  #223-D: function "initRTC" declared implicitly
+  	initRTC();
+main.c(78): warning:  #1-D: last line of file ends without a newline
+  }
+main.c: 2 warnings, 0 errors
 compiling sw.c...
 sw.c(19): warning:  #188-D: enumerated type mixed with another type
   	NVIC_ClearPendingIRQ(31);
@@ -36,33 +42,27 @@ sw.c: 2 warnings, 0 errors
 compiling RTC.c...
 C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.7.0\Device\Include\MKL46Z4.h(4318): warning:  #47-D: incompatible redefinition of macro "RTC" (declared at line 2 of "RTC.h")
   #define RTC                                      ((RTC_Type *)RTC_BASE)
-RTC.c(51): warning:  #1-D: last line of file ends without a newline
+RTC.c(49): warning:  #1-D: last line of file ends without a newline
   }
 RTC.c: 2 warnings, 0 errors
-compiling main.c...
-main.c(24): warning:  #223-D: function "initRTC" declared implicitly
-  	initRTC();
-main.c(77): warning:  #1-D: last line of file ends without a newline
-  }
-main.c: 2 warnings, 0 errors
-compiling Led.c...
 compiling SLCD.c...
 SLCD.c(5): warning:  #177-D: variable "LCD_Backplane_Pin" was declared but never referenced
   const static uint8_t LCD_Backplane_Pin[LCD_NUM_BACKPLANE_PINS] = {LCD_BACKPLANE0, LCD_BACKPLANE1, LCD_BACKPLANE2, LCD_BACKPLANE3};
 SLCD.c: 1 warning, 0 errors
+compiling Led.c...
 assembling startup_MKL46Z4.s...
 compiling mode.c...
 mode.c(137): warning:  #1-D: last line of file ends without a newline
   }
 mode.c: 1 warning, 0 errors
+compiling system_MKL46Z4.c...
 compiling Systick.c...
 Systick.c(16): warning:  #1-D: last line of file ends without a newline
   }
 Systick.c: 1 warning, 0 errors
-compiling system_MKL46Z4.c...
 linking...
-Program Size: Code=3724 RO-data=236 RW-data=44 ZI-data=356  
-After Build - User command #1: C:\Keil_v5\ARM\ARMCC\bin\fromelf.exe --bin --output=C:\Users\Viethuong_Nguyen\OneDrive\LastYear\Embeded\Projects\RTC_v1\Objects\viethuong.bin C:\Users\Viethuong_Nguyen\OneDrive\LastYear\Embeded\Projects\RTC_v1\Objects\RTC_v1.axf
+Program Size: Code=3700 RO-data=236 RW-data=44 ZI-data=356  
+After Build - User command #1: C:\Keil_v5\ARM\ARMCC\bin\fromelf.exe --bin --output=C:\Users\Viethuong_Nguyen\OneDrive\LastYear\Embeded\Projects\RTC_v1\run.bin C:\Users\Viethuong_Nguyen\OneDrive\LastYear\Embeded\Projects\RTC_v1\Objects\RTC_v1.axf
 ".\Objects\RTC_v1.axf" - 0 Error(s), 9 Warning(s).
 
 <h2>Software Packages used:</h2>
@@ -91,7 +91,7 @@ Package Vendor: Keil
    * Component: Keil::Device:Startup:1.0.0
       Source file:   Device\Source\system_MKL46Z4.c
       Source file:   Device\Source\ARM\startup_MKL46Z4.s
-Build Time Elapsed:  00:00:05
+Build Time Elapsed:  00:00:03
 </pre>
 </body>
 </html>

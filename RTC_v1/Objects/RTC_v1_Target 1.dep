@@ -1,5 +1,5 @@
 Dependencies for Project 'RTC_v1', Target 'Target 1': (DO NOT MODIFY !)
-F (.\RTC.c)(0x566A6761)(-c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I C:\Users\Viethuong_Nguyen\OneDrive\LastYear\Embeded\Projects\RTC_v1\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.7.0\Device\Include-D__UVISION_VERSION="516" -D_RTE_ -DMKL46Z256xxx4-o .\objects\rtc.o --omf_browse .\objects\rtc.crf --depend .\objects\rtc.d)
+F (.\RTC.c)(0x566A85B0)(-c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I C:\Users\Viethuong_Nguyen\OneDrive\LastYear\Embeded\Projects\RTC_v1\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.7.0\Device\Include-D__UVISION_VERSION="516" -D_RTE_ -DMKL46Z256xxx4-o .\objects\rtc.o --omf_browse .\objects\rtc.crf --depend .\objects\rtc.d)
 I (RTC.h)(0x564470D2)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.7.0\Device\Include\MKL46Z4.h)(0x51BFCCC8)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm0plus.h)(0x55094A14)
@@ -18,7 +18,7 @@ I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55094A14)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.7.0\Device\Include\system_MKL46Z4.h)(0x51BFCCC8)
 I (sw.h)(0x5629A4E9)
 F (.\sw.h)(0x5629A4E9)()
-F (.\main.c)(0x5663D495)(-c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I C:\Users\Viethuong_Nguyen\OneDrive\LastYear\Embeded\Projects\RTC_v1\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.7.0\Device\Include-D__UVISION_VERSION="516" -D_RTE_ -DMKL46Z256xxx4-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+F (.\main.c)(0x566A85A8)(-c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I C:\Users\Viethuong_Nguyen\OneDrive\LastYear\Embeded\Projects\RTC_v1\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.7.0\Device\Include-D__UVISION_VERSION="516" -D_RTE_ -DMKL46Z256xxx4-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.7.0\Device\Include\MKL46Z4.h)(0x51BFCCC8)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm0plus.h)(0x55094A14)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF0402)

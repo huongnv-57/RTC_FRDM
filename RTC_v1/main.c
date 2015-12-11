@@ -20,7 +20,8 @@ int main(){
 	//initRTC();
 	
 	initSLCD();
-	//SegLCD_DisplayDecimal(10);
+	SegLCD_DisplayDecimal(10);
+	
 	initRTC();
 	while(1){
 		chooseMode(&SW1_INDEX); //include if mode =5 save then mode = 1

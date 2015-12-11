@@ -22,7 +22,7 @@ void initRTC(void){
 	
 	
 	NVIC_EnableIRQ(RTC_Seconds_IRQn);		//RTC_seconds interrupt
-	NVIC_EnableIRQ(RTC_IRQn);						//Enable interrupt by NVIC
+	//NVIC_EnableIRQ(RTC_IRQn);						//Enable interrupt by NVIC
     if (RTC->SR & RTC_SR_TIF_MASK)
     {
         /* Reset RTC if time is invalid */
@@ -44,8 +44,6 @@ void RTC_IRQHandler (void){
 			toggleLED2();
       RTC->TAR = RTC->TAR;     // write new value to TAR to clear TAF
 			alarm_state=0;
-			offLED1();
-//      alarm_seconds_count++;  //initialized variable
-//      rtc_isrv_counter++;      //not initialized variable
+			offLED1(); //led status
     }
 }
